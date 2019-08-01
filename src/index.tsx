@@ -1,8 +1,10 @@
 import * as React from 'react';
 import { render } from 'react-dom';
-const App: React.SFC = () => (
+// @ts-ignore
+import imags from './assets/img/*.png';
+const App = () => (
   <div>
-    <img src="assets/img/i_am_god.png" alt="はいさん神ってる" />
+    <img src={imags['i_am_god']} alt="はいさん神ってる" />
     <h2>history</h2>
     <ul>
       <li>201704: 世代代表になる</li>
