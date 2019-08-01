@@ -1,0 +1,34 @@
+{
+  "name": "haisan-is-god",
+  "version": "0.0.1",
+  "description": "はいさんのポートフォリオになる予定",
+  "main": "index.ts",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oniipon/haisan-is-god.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oniipon/haisan-is-god/issues"
+  },
+  "homepage": "https://github.com/oniipon/haisan-is-god#readme",
+  "dependencies": {
+    "global": "^4.4.0",
+    "parcel-bundler": "^1.12.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.24",
+    "@types/react-dom": "^16.8.5",
+    "typescript": "^3.5.3"
+  }
+}
