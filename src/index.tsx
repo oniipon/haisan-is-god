@@ -1,12 +1,10 @@
 import * as React from 'react';
 import { render } from 'react-dom';
-// @ts-ignore
-import imags from './assets/img/*.png';
-import HistoryComponent from './history/'
+import HistoryComponent from './history/index'
 
 const App = () => (
   <div>
-    <img src={imags['i_am_god']} alt="はいさん神ってる" />
+    <img src="img/i_am_god.png" alt="はいさん神ってる" />
     <HistoryComponent /> 
   </div>
 );
