@@ -1,10 +1,10 @@
 const { resolve } = require("path")
 const webpack = require("webpack")
-
+console.log(resolve(__dirname, "docs/dist"));
 const common = {
   entry: "./src/index.tsx",
   output: {
-    path: resolve(__dirname, "public/dist"),
+    path: resolve(__dirname, "docs/dist"),
     filename: "bundle.js"
   },
   module: {
