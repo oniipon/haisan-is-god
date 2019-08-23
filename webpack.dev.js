@@ -8,7 +8,8 @@ module.exports = merge(common, {
   devServer: {
     hot: true,
     inline: true,
-    contentBase: resolve(__dirname, 'public/'),
-    publicPath: '/dist'
+    contentBase: resolve(__dirname, 'docs/'),
+    publicPath: '/dist',
+    open:true
   }
 })
